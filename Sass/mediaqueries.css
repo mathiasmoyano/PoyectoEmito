@@ -1,0 +1,305 @@
+@media only screen and (max-width: 560px) {
+  header nav ul {
+    display: none;
+  }
+  header .containercontacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    padding-top: 5px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+  }
+  header .containercontacto .mail {
+    margin-right: 100px;
+  }
+  header .containercontacto .mail i {
+    margin-right: 15px;
+  }
+  header .containercontacto .mail a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px 0;
+  }
+  header .containercontacto .mail a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  header .containercontacto .telefono i {
+    margin-right: 15px;
+  }
+  header .containercontacto .telefono a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px 0;
+  }
+  header .containercontacto .telefono a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  header .container-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+  }
+  header .container-logo img {
+    width: 250px;
+    height: 50px;
+    float: inline-start;
+    margin: 5px 50px 0 20px;
+  }
+  header .container-logo #hamburger-icon div {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    margin-right: 25px;
+    transition: 0.4s;
+  }
+  /* Inicio Index */
+  .index {
+    width: 100%;
+    height: auto;
+  }
+  .index .carousel-inner h1 {
+    margin-left: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .index .carousel-inner p {
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+  .index .carousel-inner button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+  }
+  .index .carousel-inner button:hover {
+    color: #072847;
+    background-color: white;
+  }
+  /* Fin de Index */
+  /* Inicio seccion nosotros */
+  .quienes-somos {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../Img/personas.png");
+  }
+  .quienes-somos h2 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 90px;
+  }
+  .quienes-somos p {
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 30px 30px 0 30px;
+  }
+  .quienes-somos span {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+  }
+  /* Fin seccion nosotros */
+  /* Inicio seccion contacto */
+  .Containerinfo {
+    width: 100%;
+    height: auto;
+    background: rgb(79, 119, 155);
+    background: linear-gradient(180deg, rgb(79, 119, 155) 0%, rgba(11, 66, 117, 0.978886623) 31%, rgb(7, 40, 71) 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Containerinfo img {
+    margin: 50px auto 10px auto;
+    width: 350px;
+    height: 65px;
+    align-items: center;
+  }
+  .Containerinfo .mapasitio {
+    margin: 40px 0 20px 0;
+    text-align: center;
+  }
+  .Containerinfo .mapasitio h5 {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Containerinfo .mapasitio p {
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 16px;
+  }
+  .Containerinfo .mapasitio p a {
+    text-decoration: none;
+  }
+  .Containerinfo .info {
+    margin: 0 0 5px 0;
+    text-align: center;
+  }
+  .Containerinfo .info h5 {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Containerinfo .info p {
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 16px;
+  }
+  .Containerinfo .info p a {
+    text-decoration: none;
+    color: white;
+  }
+  .Containerinfo .iconosredes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Containerinfo .iconosredes img {
+    width: 32px;
+    height: 32px;
+    margin: 10px 10px 10px 0;
+  }
+  /* Fin seccion contacto */
+  /* Inicio Cotizaciones */
+  .containercotizciones {
+    width: 100%;
+    height: 800px;
+    padding: 10px 0 30px 0;
+  }
+  .containercotizciones .container-titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .containercotizciones .container-titulo h2 {
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    color: #072847;
+  }
+  .containercotizciones .container-titulo p {
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #0B4275;
+    margin: 10px 30px 10px 30px;
+  }
+  .containercotizciones form input {
+    width: 100%;
+    border: 1px solid #072847;
+    background-color: white;
+    color: #0B4275;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: #3A7B99 2px solid;
+  }
+  .containercotizciones form p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+  }
+  .containercotizciones form label {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: #0B4275;
+    display: inline-block;
+  }
+  .containercotizciones form li {
+    list-style: none;
+  }
+  .containercotizciones form textarea {
+    height: 150px;
+    background-color: white;
+    color: #0B4275;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: #3A7B99 2px solid;
+    resize: none;
+  }
+  .containercotizciones form .btn {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 25px 0 0;
+    width: 30%;
+  }
+  .containercotizciones form .btn:hover {
+    background-color: #0B4275;
+    color: white;
+  }
+  .containercotizciones .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* Fin de Cotizaciones */
+  /* Inicio footer */
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #072847;
+  }
+  footer .contenedorfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  footer .contenedorfooter img {
+    width: 40px;
+    height: 40px;
+    margin: auto 10px auto 0;
+  }
+  footer .contenedorfooter h5 {
+    width: 200px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: auto 0 auto 0;
+  }
+  /* Fin de footer */
+}
+@media only screen and (min-width: 561px) and (max-width: 1023px) {
+  header nav ul {
+    display: none;
+  }
+  #hamburger-icon div {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1459px) {
+  #hamburger-icon {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1460px) {
+  #hamburger-icon {
+    display: none;
+  }
+}/*# sourceMappingURL=mediaqueries.css.map */
