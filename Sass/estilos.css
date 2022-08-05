@@ -230,27 +230,27 @@ header .container-logo nav ul li a:hover {
   margin: 15px auto 50px auto;
   height: 160px;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 53% 47% 61% 39%/32% 54% 46% 68%;
   border: 3px solid #072847;
   filter: drop-shadow(0 0 1px #121212);
   text-align: center;
   align-items: center;
 }
 .Seguros .card:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
+  transform: scale(1.2);
+  border-radius: 100%;
+  transition: 0.5s;
 }
 .Seguros .card img {
   width: 50px;
   height: 50px;
   margin-top: 40px;
-  color: white;
 }
 .Seguros .card h5 {
   font-size: 12px;
   margin-top: 1px;
   font-family: "Roboto Condensed", sans-serif;
-  color: #072847;
+  color: #0B4275;
   text-transform: uppercase;
 }
 
@@ -755,6 +755,8 @@ footer .contenedorfooter h5 {
     margin-right: 0;
   }
   /* Fin de Cotizaciones */
+  /* Siniestros */
+  /* fin de siniestros */
   /* Inicio footer */
   footer {
     width: 100%;

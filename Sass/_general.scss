@@ -274,29 +274,29 @@ header {
         margin: 15px auto 50px auto;
         height: 160px;
         background-color: $color4;
-        border-radius: 30px;
+        border-radius: 53% 47% 61% 39% / 32% 54% 46% 68% ;
         border: 3px solid $color2;
         filter: drop-shadow(0 0 1px #121212);
         text-align: center;
         align-items: center;
 
         &:hover {
-            transform: scale(1.1);
-            transition: 0.3s;
+            transform: scale(1.2);
+            border-radius: 100%;
+            transition: 0.5s;
         }
 
         img {
             width: 50px;
             height: 50px;
             margin-top: 40px;
-            color: white;
         }
 
         h5 {
             font-size: 12px;
             margin-top: 1px;
             font-family: $font1;
-            color: $color2;
+            color: $color1;
             text-transform: uppercase;
         }
     }
