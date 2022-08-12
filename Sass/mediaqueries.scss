@@ -83,35 +83,17 @@
 .index {
     width: 100%;
     height: auto;
-
+    .imgresponsive{
+        .responsive{
+            width: 100%;
+            height: auto;
+        }
+    }
     .carousel-inner {
-        h1 {
-            margin-left: 50px;
-            padding-bottom: 5px;
-            display: flex;
-            flex-direction: row;
-        }
-
-        p {
-            color: white;
-            margin-left: 50px;
-            margin-right: 50px;
-            padding-bottom: 15px;
-            text-align: left;
-        }
-
-        button {
-            color: white;
-            border: 2px solid white;
-            border-radius: 10px;
-            margin-left: 100px;
-            margin-bottom: 5px;
-
-            &:hover {
-                color: #072847;
-                background-color: white;
-            }
-        }
+        display: none;
+    }
+    .carousel{
+        display: none;
     }
 }
 
@@ -411,16 +393,25 @@ footer {
         margin: 6px 0;
         transition: 0.4s;
     }
+    .imgresponsive{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1459px) {
     #hamburger-icon {
         display: none;
     }
+    .imgresponsive{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1460px) {
     #hamburger-icon {
+        display: none;
+    }
+    .imgresponsive{
         display: none;
     }
 }

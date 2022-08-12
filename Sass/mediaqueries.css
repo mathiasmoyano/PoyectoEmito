@@ -67,29 +67,15 @@
     width: 100%;
     height: auto;
   }
-  .index .carousel-inner h1 {
-    margin-left: 50px;
-    padding-bottom: 5px;
-    display: flex;
-    flex-direction: row;
+  .index .imgresponsive .responsive {
+    width: 100%;
+    height: auto;
   }
-  .index .carousel-inner p {
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 15px;
-    text-align: left;
+  .index .carousel-inner {
+    display: none;
   }
-  .index .carousel-inner button {
-    color: white;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-left: 100px;
-    margin-bottom: 5px;
-  }
-  .index .carousel-inner button:hover {
-    color: #072847;
-    background-color: white;
+  .index .carousel {
+    display: none;
   }
   /* Fin de Index */
   /* Inicio seccion seguros */
@@ -341,14 +327,23 @@
     margin: 6px 0;
     transition: 0.4s;
   }
+  .imgresponsive {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1459px) {
   #hamburger-icon {
     display: none;
   }
+  .imgresponsive {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1460px) {
   #hamburger-icon {
+    display: none;
+  }
+  .imgresponsive {
     display: none;
   }
 }/*# sourceMappingURL=mediaqueries.css.map */

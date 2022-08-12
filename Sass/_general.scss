@@ -20,12 +20,11 @@ p {
     margin-top: 5px;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
 /* Fin de Etiquetas */
-
 /* Inicio Header */
 header {
     width: 100%;
@@ -274,7 +273,7 @@ header {
         margin: 15px auto 50px auto;
         height: 160px;
         background-color: $color4;
-        border-radius: 53% 47% 61% 39% / 32% 54% 46% 68% ;
+        border-radius: 53% 47% 61% 39% / 32% 54% 46% 68%;
         border: 3px solid $color2;
         filter: drop-shadow(0 0 1px #121212);
         text-align: center;
